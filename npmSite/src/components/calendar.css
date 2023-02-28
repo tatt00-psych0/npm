@@ -1,0 +1,14 @@
+.react-calendar__tile--now {
+	color: rgb(162, 162, 246);
+	background-color: rgb(222, 82, 82) !important;
+}
+
+.model {
+	width: 98vw;
+	height: 400px;
+	position: absolute;
+	background-color: rgb(87, 61, 61);
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%);
+}

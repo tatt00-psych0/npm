@@ -1,0 +1,24 @@
+#myImg {
+	-webkit-box-shadow: 5px 5px 19px 5px rgba(123, 65, 169, 0.8);
+	box-shadow: 5px 5px 19px 5px rgba(123, 65, 169, 0.8);
+	/* clip-path: polygon(0 0, 100% 0, 100% 97.5%, 0 98%); */
+}
+
+.boxani {
+	animation: boxAni;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes boxAni {
+	0% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(-15px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}

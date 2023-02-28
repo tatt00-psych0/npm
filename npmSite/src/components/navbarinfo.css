@@ -1,0 +1,81 @@
+
+
+
+
+#info_whatsup:hover::after {
+	content: "Whatsup Me";
+	position: absolute;
+	top: 500px;
+	left: 80px;
+	font-weight: 500;
+	color: white;
+	letter-spacing: 1px;
+	text-align: center;
+	font-size: 1rem;
+	padding-top: 0.4rem;
+	padding-left: 1rem;
+	width: 100px;
+	height: 60px;
+	background-color: rgb(23, 144, 242);
+	clip-path: polygon(30% 0, 100% 0%, 100% 100%, 33% 100%, 0% 50%);
+}
+
+#info__call-me:hover::after {
+	content: "Call me";
+	position: absolute;
+	top: 630px;
+	left: 80px;
+	font-weight: 500;
+	color: white;
+	letter-spacing: 1px;
+	text-align: center;
+	font-size: 1rem;
+	padding-top: 0.4rem;
+	padding-left: 1rem;
+	width: 100px;
+	height: 40px;
+	background-color: rgb(23, 144, 242);
+	clip-path: polygon(30% 0, 100% 0%, 100% 100%, 33% 100%, 0% 50%);
+}
+
+.icon_ani {
+	transition: transform 0.3s ease-in-out;
+}
+
+.icon_ani:hover {
+	position: relative;
+	transform: translateY(-8px);
+}
+
+.eyes-follow {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 4vh;
+}
+
+.eyes {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.eye {
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	background: #1c1a1a;
+}
+
+.pupil {
+	background: #e6e8e8;
+	border-radius: 50%;
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	left: 20px;
+	top: 12px;
+}
